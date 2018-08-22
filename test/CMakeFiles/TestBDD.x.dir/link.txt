@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TestBDD.x.dir/test_bdd.cxx.o  -o TestBDD.x ../lib/libverilog_model.a -lboost_filesystem -lboost_system 

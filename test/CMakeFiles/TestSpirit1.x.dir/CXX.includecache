@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/renan/iccad2016uffs/test/test_spirit_1.cxx
+boost/config/warning_disable.hpp
+-
+boost/spirit/home/x3.hpp
+-
+iostream
+-
+string
+-
+vector
+-
+

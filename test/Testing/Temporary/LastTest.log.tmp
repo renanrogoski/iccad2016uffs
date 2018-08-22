@@ -1,0 +1,678 @@
+Start testing: Jun 19 20:38 -03
+----------------------------------------------------------
+1/149 Testing: check_rapidcheck
+1/149 Test: check_rapidcheck
+Command: "/home/renan/iccad2016uffs/test/TestRapidCheck.x"
+Directory: /home/renan/iccad2016uffs/test
+"check_rapidcheck" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+Using configuration: seed=3835732054028163314
+
+- double reversal yields the original value
+OK, passed 100 tests
+
+- nodes zero and one have no inputs
+OK, passed 100 tests
+
+- inputs have no incomming edges and outputs have no outgoing edges
+OK, passed 100 tests
+
+- check if a graph is simulated 2 times with same input, it outputs the same results
+OK, passed 100 tests
+
+- checks that a graph is always equivalent to itself
+OK, passed 100 tests
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"check_rapidcheck" end time: Jun 19 20:38 -03
+"check_rapidcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/149 Testing: check_if_spirit_runs
+2/149 Test: check_if_spirit_runs
+Command: "/home/renan/iccad2016uffs/test/TestSpirit1.x"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_spirit_runs" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+Result: aaoeu_123_123
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_spirit_runs" end time: Jun 19 20:38 -03
+"check_if_spirit_runs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/149 Testing: check_if_converter_runs
+3/149 Test: check_if_converter_runs
+Command: "/home/renan/iccad2016uffs/test/TestConvert1.x" "../testcases/BDD/in_1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_converter_runs" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_converter_runs" end time: Jun 19 20:38 -03
+"check_if_converter_runs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/149 Testing: check_if_simulator_runs_./testcases/trivial/buf1.v
+4/149 Test: check_if_simulator_runs_./testcases/trivial/buf1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/trivial/buf1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/trivial/buf1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 27 microseconds.
+Netlist Simulation: 23 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/trivial/buf1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/trivial/buf1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/149 Testing: check_if_parser_runs_./testcases/trivial/buf1.v
+5/149 Test: check_if_parser_runs_./testcases/trivial/buf1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/trivial/buf1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/trivial/buf1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/trivial/buf1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/trivial/buf1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/149 Testing: check_if_simulator_runs_./testcases/trivial/or1.v
+6/149 Test: check_if_simulator_runs_./testcases/trivial/or1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/trivial/or1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/trivial/or1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 29 microseconds.
+Netlist Simulation: 21 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/trivial/or1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/trivial/or1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/149 Testing: check_if_parser_runs_./testcases/trivial/or1.v
+7/149 Test: check_if_parser_runs_./testcases/trivial/or1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/trivial/or1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/trivial/or1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/trivial/or1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/trivial/or1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/149 Testing: check_if_simulator_runs_./testcases/trivial/and1.v
+8/149 Test: check_if_simulator_runs_./testcases/trivial/and1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/trivial/and1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/trivial/and1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 27 microseconds.
+Netlist Simulation: 22 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/trivial/and1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/trivial/and1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/149 Testing: check_if_parser_runs_./testcases/trivial/and1.v
+9/149 Test: check_if_parser_runs_./testcases/trivial/and1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/trivial/and1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/trivial/and1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/trivial/and1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/trivial/and1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/149 Testing: check_if_simulator_runs_./testcases/trivial/not1.v
+10/149 Test: check_if_simulator_runs_./testcases/trivial/not1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/trivial/not1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/trivial/not1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 28 microseconds.
+Netlist Simulation: 24 microseconds.
+ERROR: output `a' differs
+wire	input
+y	0
+wire	output1	output2
+a	1	0
+b	1	0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"check_if_simulator_runs_./testcases/trivial/not1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/trivial/not1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/149 Testing: check_if_parser_runs_./testcases/trivial/not1.v
+11/149 Test: check_if_parser_runs_./testcases/trivial/not1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/trivial/not1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/trivial/not1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/trivial/not1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/trivial/not1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/149 Testing: check_if_simulator_runs_./testcases/trivial/nand1.v
+12/149 Test: check_if_simulator_runs_./testcases/trivial/nand1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/trivial/nand1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/trivial/nand1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 35 microseconds.
+Netlist Simulation: 26 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/trivial/nand1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/trivial/nand1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/149 Testing: check_if_parser_runs_./testcases/trivial/nand1.v
+13/149 Test: check_if_parser_runs_./testcases/trivial/nand1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/trivial/nand1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/trivial/nand1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/trivial/nand1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/trivial/nand1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/149 Testing: check_if_simulator_runs_./testcases/BDD/in_1.v
+14/149 Test: check_if_simulator_runs_./testcases/BDD/in_1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/BDD/in_1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/BDD/in_1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 66 microseconds.
+Netlist Simulation: 72 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/BDD/in_1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/BDD/in_1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/149 Testing: check_if_parser_runs_./testcases/BDD/in_1.v
+15/149 Test: check_if_parser_runs_./testcases/BDD/in_1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/BDD/in_1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/BDD/in_1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/BDD/in_1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/BDD/in_1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/149 Testing: check_if_simulator_runs_./testcases/BDD/in_2.v
+16/149 Test: check_if_simulator_runs_./testcases/BDD/in_2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/BDD/in_2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/BDD/in_2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 53 microseconds.
+Netlist Simulation: 52 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/BDD/in_2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/BDD/in_2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/149 Testing: check_if_parser_runs_./testcases/BDD/in_2.v
+17/149 Test: check_if_parser_runs_./testcases/BDD/in_2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/BDD/in_2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/BDD/in_2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/BDD/in_2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/BDD/in_2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/149 Testing: check_if_simulator_runs_./testcases/BDD_wrong/in_1.v
+18/149 Test: check_if_simulator_runs_./testcases/BDD_wrong/in_1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/BDD_wrong/in_1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/BDD_wrong/in_1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 60 microseconds.
+Netlist Simulation: 54 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/BDD_wrong/in_1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/BDD_wrong/in_1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/149 Testing: check_if_parser_runs_./testcases/BDD_wrong/in_1.v
+19/149 Test: check_if_parser_runs_./testcases/BDD_wrong/in_1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/BDD_wrong/in_1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/BDD_wrong/in_1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/BDD_wrong/in_1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/BDD_wrong/in_1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/149 Testing: check_if_simulator_runs_./testcases/BDD_wrong/in_2.v
+20/149 Test: check_if_simulator_runs_./testcases/BDD_wrong/in_2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/BDD_wrong/in_2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/BDD_wrong/in_2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 63 microseconds.
+Netlist Simulation: 62 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/BDD_wrong/in_2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/BDD_wrong/in_2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/149 Testing: check_if_parser_runs_./testcases/BDD_wrong/in_2.v
+21/149 Test: check_if_parser_runs_./testcases/BDD_wrong/in_2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/BDD_wrong/in_2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/BDD_wrong/in_2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/BDD_wrong/in_2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/BDD_wrong/in_2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir2.v
+22/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case0/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 64 microseconds.
+Netlist Simulation: 56 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case0/cir2.v
+23/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case0/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case0/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case0/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case0/cir2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case0/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir1.v
+24/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case0/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 75 microseconds.
+Netlist Simulation: 55 microseconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case0/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case0/cir1.v
+25/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case0/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case0/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case0/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case0/cir1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case0/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir2.v
+26/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case1/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 2777 microseconds.
+Netlist Simulation: 2977 microseconds.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case1/cir2.v
+27/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case1/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case1/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case1/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case1/cir2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case1/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir1.v
+28/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case1/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 2434 microseconds.
+Netlist Simulation: 2687 microseconds.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case1/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case1/cir1.v
+29/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case1/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case1/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case1/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case1/cir1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case1/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir2.v
+30/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case2/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 1848 microseconds.
+Netlist Simulation: 2307 microseconds.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case2/cir2.v
+31/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case2/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case2/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case2/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case2/cir2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case2/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir1.v
+32/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case2/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 1819 microseconds.
+Netlist Simulation: 2188 microseconds.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case2/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case2/cir1.v
+33/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case2/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case2/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case2/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case2/cir1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case2/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir2.v
+34/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case3/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 9477 microseconds.
+Netlist Simulation: 14172 microseconds.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case3/cir2.v
+35/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case3/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case3/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case3/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case3/cir2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case3/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir1.v
+36/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case3/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 21689 microseconds.
+Netlist Simulation: 33630 microseconds.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case3/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case3/cir1.v
+37/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case3/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case3/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case3/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case3/cir1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case3/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir2.v
+38/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case4/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 2766 microseconds.
+Netlist Simulation: 2990 microseconds.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir2.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case4/cir2.v
+39/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case4/cir2.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case4/cir2.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case4/cir2.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case4/cir2.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case4/cir2.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/149 Testing: check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir1.v
+40/149 Test: check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestSimulateGraph.x" ".././testcases/cad16_np3_case/case4/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+nand    Simulation: 2433 microseconds.
+Netlist Simulation: 2696 microseconds.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir1.v" end time: Jun 19 20:38 -03
+"check_if_simulator_runs_./testcases/cad16_np3_case/case4/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/149 Testing: check_if_parser_runs_./testcases/cad16_np3_case/case4/cir1.v
+41/149 Test: check_if_parser_runs_./testcases/cad16_np3_case/case4/cir1.v
+Command: "/home/renan/iccad2016uffs/test/TestParser1.x" ".././testcases/cad16_np3_case/case4/cir1.v"
+Directory: /home/renan/iccad2016uffs/test
+"check_if_parser_runs_./testcases/cad16_np3_case/case4/cir1.v" start time: Jun 19 20:38 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"check_if_parser_runs_./testcases/cad16_np3_case/case4/cir1.v" end time: Jun 19 20:38 -03
+"check_if_parser_runs_./testcases/cad16_np3_case/case4/cir1.v" time elapsed: 00:00:00
+----------------------------------------------------------
+

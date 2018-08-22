@@ -1,0 +1,2 @@
+/usr/bin/ar qc libverilog_parser.a  CMakeFiles/verilog_parser.dir/__/lib/verilog_parser.cxx.o CMakeFiles/verilog_parser.dir/__/lib/verilog_model.cxx.o
+/usr/bin/ranlib libverilog_parser.a

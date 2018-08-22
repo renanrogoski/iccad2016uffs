@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/renan/iccad2016uffs/test/test_parser_1.cxx
+verilog_parser.hpp
+-
+boost/config/warning_disable.hpp
+-
+boost/spirit/home/x3.hpp
+-
+iostream
+-
+fstream
+-
+string
+-
+string.h
+-
+vector
+-
+boost/spirit/include/support_istream_iterator.hpp
+-
+stdio.h
+-
+map
+-
+
+include/verilog_model.hpp
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+include/verilog_parser.hpp
+verilog_model.hpp
+-
+

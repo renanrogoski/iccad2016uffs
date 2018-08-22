@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TestSpirit1.x.dir/test_spirit_1.cxx.o  -o TestSpirit1.x 
