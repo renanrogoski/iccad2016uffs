@@ -84,19 +84,20 @@ int main(int nargs, char** argv){
   graph::G_builder b;
   std::map<std::string, bool> input, output;
 
-  duration<double> tempo_simulacao = duration<double>(300.0000);
+  duration<double> tempo_simulacao = duration<double>(1800.0000);
   duration<double> tempo = duration<double>(0.0000) ;   
   steady_clock::time_point t0 = steady_clock::now();
-  steady_clock::time_point t1;  
+  steady_clock::time_point t1;    
+
+  //lê o verilog do circuito
+  parser::parse_verilog_file(v, argv[1]);  
+  //converte o verilog no grafo nand
+  convert(v, b);
 
   std::cout << "simulações";
   int flag = 1; 
   while (tempo < duration<double>(tempo_simulacao))
-  {
-    //lê o verilog do circuito
-    parser::parse_verilog_file(v, argv[1]);  
-    //converte o verilog no grafo nand
-    convert(v, b);  
+  { 
     //gera o map de entradas apartir das entradas do circuito verilog
     gen.generate_inputs(v.inputs, input);
     //simula o grafo nand e salva as saídas (primeira simulação)
