@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/count_inputs_outputs.x.dir/count_inputs_outputs.cxx.o  -o count_inputs_outputs.x libverilog_parser.a -lboost_filesystem -lboost_system 

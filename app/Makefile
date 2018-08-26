@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/renan/iccad2016uffs
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,34 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-app/CMakeFiles/aleatory_simulate_graph.x.dir/rule:
-	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/aleatory_simulate_graph.x.dir/rule
-.PHONY : app/CMakeFiles/aleatory_simulate_graph.x.dir/rule
+app/CMakeFiles/TestParser_fields.x.dir/rule:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/TestParser_fields.x.dir/rule
+.PHONY : app/CMakeFiles/TestParser_fields.x.dir/rule
 
 # Convenience name for target.
-aleatory_simulate_graph.x: app/CMakeFiles/aleatory_simulate_graph.x.dir/rule
+TestParser_fields.x: app/CMakeFiles/TestParser_fields.x.dir/rule
 
-.PHONY : aleatory_simulate_graph.x
+.PHONY : TestParser_fields.x
 
 # fast build rule for target.
-aleatory_simulate_graph.x/fast:
-	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/aleatory_simulate_graph.x.dir/build.make app/CMakeFiles/aleatory_simulate_graph.x.dir/build
-.PHONY : aleatory_simulate_graph.x/fast
-
-# Convenience name for target.
-app/CMakeFiles/iccad2016solve.x.dir/rule:
-	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/iccad2016solve.x.dir/rule
-.PHONY : app/CMakeFiles/iccad2016solve.x.dir/rule
-
-# Convenience name for target.
-iccad2016solve.x: app/CMakeFiles/iccad2016solve.x.dir/rule
-
-.PHONY : iccad2016solve.x
-
-# fast build rule for target.
-iccad2016solve.x/fast:
-	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/build
-.PHONY : iccad2016solve.x/fast
+TestParser_fields.x/fast:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/build
+.PHONY : TestParser_fields.x/fast
 
 # Convenience name for target.
 app/CMakeFiles/verilog_parser.dir/rule:
@@ -156,19 +141,49 @@ verilog_parser/fast:
 .PHONY : verilog_parser/fast
 
 # Convenience name for target.
-app/CMakeFiles/TestParser_fields.x.dir/rule:
-	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/TestParser_fields.x.dir/rule
-.PHONY : app/CMakeFiles/TestParser_fields.x.dir/rule
+app/CMakeFiles/iccad2016solve.x.dir/rule:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/iccad2016solve.x.dir/rule
+.PHONY : app/CMakeFiles/iccad2016solve.x.dir/rule
 
 # Convenience name for target.
-TestParser_fields.x: app/CMakeFiles/TestParser_fields.x.dir/rule
+iccad2016solve.x: app/CMakeFiles/iccad2016solve.x.dir/rule
 
-.PHONY : TestParser_fields.x
+.PHONY : iccad2016solve.x
 
 # fast build rule for target.
-TestParser_fields.x/fast:
-	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/build
-.PHONY : TestParser_fields.x/fast
+iccad2016solve.x/fast:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/build
+.PHONY : iccad2016solve.x/fast
+
+# Convenience name for target.
+app/CMakeFiles/aleatory_simulate_graph.x.dir/rule:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/aleatory_simulate_graph.x.dir/rule
+.PHONY : app/CMakeFiles/aleatory_simulate_graph.x.dir/rule
+
+# Convenience name for target.
+aleatory_simulate_graph.x: app/CMakeFiles/aleatory_simulate_graph.x.dir/rule
+
+.PHONY : aleatory_simulate_graph.x
+
+# fast build rule for target.
+aleatory_simulate_graph.x/fast:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/aleatory_simulate_graph.x.dir/build.make app/CMakeFiles/aleatory_simulate_graph.x.dir/build
+.PHONY : aleatory_simulate_graph.x/fast
+
+# Convenience name for target.
+app/CMakeFiles/count_inputs_outputs.x.dir/rule:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/count_inputs_outputs.x.dir/rule
+.PHONY : app/CMakeFiles/count_inputs_outputs.x.dir/rule
+
+# Convenience name for target.
+count_inputs_outputs.x: app/CMakeFiles/count_inputs_outputs.x.dir/rule
+
+.PHONY : count_inputs_outputs.x
+
+# fast build rule for target.
+count_inputs_outputs.x/fast:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/build
+.PHONY : count_inputs_outputs.x/fast
 
 __/lib/verilog_model.o: __/lib/verilog_model.cxx.o
 
@@ -251,6 +266,33 @@ aleatory_simulate_graph.cxx.s:
 	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/aleatory_simulate_graph.x.dir/build.make app/CMakeFiles/aleatory_simulate_graph.x.dir/aleatory_simulate_graph.cxx.s
 .PHONY : aleatory_simulate_graph.cxx.s
 
+count_inputs_outputs.o: count_inputs_outputs.cxx.o
+
+.PHONY : count_inputs_outputs.o
+
+# target to build an object file
+count_inputs_outputs.cxx.o:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/count_inputs_outputs.cxx.o
+.PHONY : count_inputs_outputs.cxx.o
+
+count_inputs_outputs.i: count_inputs_outputs.cxx.i
+
+.PHONY : count_inputs_outputs.i
+
+# target to preprocess a source file
+count_inputs_outputs.cxx.i:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/count_inputs_outputs.cxx.i
+.PHONY : count_inputs_outputs.cxx.i
+
+count_inputs_outputs.s: count_inputs_outputs.cxx.s
+
+.PHONY : count_inputs_outputs.s
+
+# target to generate assembly for a file
+count_inputs_outputs.cxx.s:
+	cd /home/renan/iccad2016uffs && $(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/count_inputs_outputs.cxx.s
+.PHONY : count_inputs_outputs.cxx.s
+
 iccad2016solve.o: iccad2016solve.cxx.o
 
 .PHONY : iccad2016solve.o
@@ -311,12 +353,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... aleatory_simulate_graph.x"
 	@echo "... rebuild_cache"
-	@echo "... iccad2016solve.x"
-	@echo "... verilog_parser"
 	@echo "... TestParser_fields.x"
+	@echo "... verilog_parser"
+	@echo "... iccad2016solve.x"
+	@echo "... aleatory_simulate_graph.x"
+	@echo "... count_inputs_outputs.x"
+	@echo "... edit_cache"
 	@echo "... __/lib/verilog_model.o"
 	@echo "... __/lib/verilog_model.i"
 	@echo "... __/lib/verilog_model.s"
@@ -326,6 +369,9 @@ help:
 	@echo "... aleatory_simulate_graph.o"
 	@echo "... aleatory_simulate_graph.i"
 	@echo "... aleatory_simulate_graph.s"
+	@echo "... count_inputs_outputs.o"
+	@echo "... count_inputs_outputs.i"
+	@echo "... count_inputs_outputs.s"
 	@echo "... iccad2016solve.o"
 	@echo "... iccad2016solve.i"
 	@echo "... iccad2016solve.s"

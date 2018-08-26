@@ -89,7 +89,7 @@ ext-lib/rapidcheck/preinstall: ext-lib/rapidcheck/extras/preinstall
 ext-lib/rapidcheck/CMakeFiles/rapidcheck.dir/all:
 	$(MAKE) -f ext-lib/rapidcheck/CMakeFiles/rapidcheck.dir/build.make ext-lib/rapidcheck/CMakeFiles/rapidcheck.dir/depend
 	$(MAKE) -f ext-lib/rapidcheck/CMakeFiles/rapidcheck.dir/build.make ext-lib/rapidcheck/CMakeFiles/rapidcheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target rapidcheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target rapidcheck"
 .PHONY : ext-lib/rapidcheck/CMakeFiles/rapidcheck.dir/all
 
 # Include target in all.
@@ -180,7 +180,7 @@ lib/preinstall:
 lib/CMakeFiles/verilog_model.dir/all:
 	$(MAKE) -f lib/CMakeFiles/verilog_model.dir/build.make lib/CMakeFiles/verilog_model.dir/depend
 	$(MAKE) -f lib/CMakeFiles/verilog_model.dir/build.make lib/CMakeFiles/verilog_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=58,59,60 "Built target verilog_model"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=60,61,62 "Built target verilog_model"
 .PHONY : lib/CMakeFiles/verilog_model.dir/all
 
 # Include target in all.
@@ -597,7 +597,7 @@ clean: test/CMakeFiles/NightlyTest.dir/clean
 test/CMakeFiles/simulation.x.dir/all: lib/CMakeFiles/verilog_model.dir/all
 	$(MAKE) -f test/CMakeFiles/simulation.x.dir/build.make test/CMakeFiles/simulation.x.dir/depend
 	$(MAKE) -f test/CMakeFiles/simulation.x.dir/build.make test/CMakeFiles/simulation.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=56,57 "Built target simulation.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=58,59 "Built target simulation.x"
 .PHONY : test/CMakeFiles/simulation.x.dir/all
 
 # Include target in all.
@@ -1466,18 +1466,20 @@ clean: test/CMakeFiles/TestParser1.x.dir/clean
 # Directory level rules for directory app
 
 # Convenience name for "all" pass in the directory.
-app/all: app/CMakeFiles/aleatory_simulate_graph.x.dir/all
-app/all: app/CMakeFiles/iccad2016solve.x.dir/all
-app/all: app/CMakeFiles/verilog_parser.dir/all
 app/all: app/CMakeFiles/TestParser_fields.x.dir/all
+app/all: app/CMakeFiles/verilog_parser.dir/all
+app/all: app/CMakeFiles/iccad2016solve.x.dir/all
+app/all: app/CMakeFiles/aleatory_simulate_graph.x.dir/all
+app/all: app/CMakeFiles/count_inputs_outputs.x.dir/all
 
 .PHONY : app/all
 
 # Convenience name for "clean" pass in the directory.
-app/clean: app/CMakeFiles/aleatory_simulate_graph.x.dir/clean
-app/clean: app/CMakeFiles/iccad2016solve.x.dir/clean
-app/clean: app/CMakeFiles/verilog_parser.dir/clean
 app/clean: app/CMakeFiles/TestParser_fields.x.dir/clean
+app/clean: app/CMakeFiles/verilog_parser.dir/clean
+app/clean: app/CMakeFiles/iccad2016solve.x.dir/clean
+app/clean: app/CMakeFiles/aleatory_simulate_graph.x.dir/clean
+app/clean: app/CMakeFiles/count_inputs_outputs.x.dir/clean
 
 .PHONY : app/clean
 
@@ -1485,6 +1487,117 @@ app/clean: app/CMakeFiles/TestParser_fields.x.dir/clean
 app/preinstall:
 
 .PHONY : app/preinstall
+
+#=============================================================================
+# Target rules for target app/CMakeFiles/TestParser_fields.x.dir
+
+# All Build rule for target.
+app/CMakeFiles/TestParser_fields.x.dir/all: app/CMakeFiles/verilog_parser.dir/all
+	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/depend
+	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=7,8 "Built target TestParser_fields.x"
+.PHONY : app/CMakeFiles/TestParser_fields.x.dir/all
+
+# Include target in all.
+all: app/CMakeFiles/TestParser_fields.x.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+app/CMakeFiles/TestParser_fields.x.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/TestParser_fields.x.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 0
+.PHONY : app/CMakeFiles/TestParser_fields.x.dir/rule
+
+# Convenience name for target.
+TestParser_fields.x: app/CMakeFiles/TestParser_fields.x.dir/rule
+
+.PHONY : TestParser_fields.x
+
+# clean rule for target.
+app/CMakeFiles/TestParser_fields.x.dir/clean:
+	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/clean
+.PHONY : app/CMakeFiles/TestParser_fields.x.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/TestParser_fields.x.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target app/CMakeFiles/verilog_parser.dir
+
+# All Build rule for target.
+app/CMakeFiles/verilog_parser.dir/all:
+	$(MAKE) -f app/CMakeFiles/verilog_parser.dir/build.make app/CMakeFiles/verilog_parser.dir/depend
+	$(MAKE) -f app/CMakeFiles/verilog_parser.dir/build.make app/CMakeFiles/verilog_parser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=63,64,65 "Built target verilog_parser"
+.PHONY : app/CMakeFiles/verilog_parser.dir/all
+
+# Include target in all.
+all: app/CMakeFiles/verilog_parser.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+app/CMakeFiles/verilog_parser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/verilog_parser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 0
+.PHONY : app/CMakeFiles/verilog_parser.dir/rule
+
+# Convenience name for target.
+verilog_parser: app/CMakeFiles/verilog_parser.dir/rule
+
+.PHONY : verilog_parser
+
+# clean rule for target.
+app/CMakeFiles/verilog_parser.dir/clean:
+	$(MAKE) -f app/CMakeFiles/verilog_parser.dir/build.make app/CMakeFiles/verilog_parser.dir/clean
+.PHONY : app/CMakeFiles/verilog_parser.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/verilog_parser.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target app/CMakeFiles/iccad2016solve.x.dir
+
+# All Build rule for target.
+app/CMakeFiles/iccad2016solve.x.dir/all: app/CMakeFiles/verilog_parser.dir/all
+	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/depend
+	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=21,22 "Built target iccad2016solve.x"
+.PHONY : app/CMakeFiles/iccad2016solve.x.dir/all
+
+# Include target in all.
+all: app/CMakeFiles/iccad2016solve.x.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+app/CMakeFiles/iccad2016solve.x.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/iccad2016solve.x.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 0
+.PHONY : app/CMakeFiles/iccad2016solve.x.dir/rule
+
+# Convenience name for target.
+iccad2016solve.x: app/CMakeFiles/iccad2016solve.x.dir/rule
+
+.PHONY : iccad2016solve.x
+
+# clean rule for target.
+app/CMakeFiles/iccad2016solve.x.dir/clean:
+	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/clean
+.PHONY : app/CMakeFiles/iccad2016solve.x.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/iccad2016solve.x.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target app/CMakeFiles/aleatory_simulate_graph.x.dir
@@ -1524,113 +1637,39 @@ clean: app/CMakeFiles/aleatory_simulate_graph.x.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target app/CMakeFiles/iccad2016solve.x.dir
+# Target rules for target app/CMakeFiles/count_inputs_outputs.x.dir
 
 # All Build rule for target.
-app/CMakeFiles/iccad2016solve.x.dir/all: app/CMakeFiles/verilog_parser.dir/all
-	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/depend
-	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=19,20 "Built target iccad2016solve.x"
-.PHONY : app/CMakeFiles/iccad2016solve.x.dir/all
+app/CMakeFiles/count_inputs_outputs.x.dir/all: app/CMakeFiles/verilog_parser.dir/all
+	$(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/depend
+	$(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=19,20 "Built target count_inputs_outputs.x"
+.PHONY : app/CMakeFiles/count_inputs_outputs.x.dir/all
 
 # Include target in all.
-all: app/CMakeFiles/iccad2016solve.x.dir/all
+all: app/CMakeFiles/count_inputs_outputs.x.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-app/CMakeFiles/iccad2016solve.x.dir/rule: cmake_check_build_system
+app/CMakeFiles/count_inputs_outputs.x.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/iccad2016solve.x.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/count_inputs_outputs.x.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 0
-.PHONY : app/CMakeFiles/iccad2016solve.x.dir/rule
+.PHONY : app/CMakeFiles/count_inputs_outputs.x.dir/rule
 
 # Convenience name for target.
-iccad2016solve.x: app/CMakeFiles/iccad2016solve.x.dir/rule
+count_inputs_outputs.x: app/CMakeFiles/count_inputs_outputs.x.dir/rule
 
-.PHONY : iccad2016solve.x
-
-# clean rule for target.
-app/CMakeFiles/iccad2016solve.x.dir/clean:
-	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/clean
-.PHONY : app/CMakeFiles/iccad2016solve.x.dir/clean
+.PHONY : count_inputs_outputs.x
 
 # clean rule for target.
-clean: app/CMakeFiles/iccad2016solve.x.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target app/CMakeFiles/verilog_parser.dir
-
-# All Build rule for target.
-app/CMakeFiles/verilog_parser.dir/all:
-	$(MAKE) -f app/CMakeFiles/verilog_parser.dir/build.make app/CMakeFiles/verilog_parser.dir/depend
-	$(MAKE) -f app/CMakeFiles/verilog_parser.dir/build.make app/CMakeFiles/verilog_parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=61,62,63 "Built target verilog_parser"
-.PHONY : app/CMakeFiles/verilog_parser.dir/all
-
-# Include target in all.
-all: app/CMakeFiles/verilog_parser.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-app/CMakeFiles/verilog_parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/verilog_parser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 0
-.PHONY : app/CMakeFiles/verilog_parser.dir/rule
-
-# Convenience name for target.
-verilog_parser: app/CMakeFiles/verilog_parser.dir/rule
-
-.PHONY : verilog_parser
+app/CMakeFiles/count_inputs_outputs.x.dir/clean:
+	$(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/clean
+.PHONY : app/CMakeFiles/count_inputs_outputs.x.dir/clean
 
 # clean rule for target.
-app/CMakeFiles/verilog_parser.dir/clean:
-	$(MAKE) -f app/CMakeFiles/verilog_parser.dir/build.make app/CMakeFiles/verilog_parser.dir/clean
-.PHONY : app/CMakeFiles/verilog_parser.dir/clean
-
-# clean rule for target.
-clean: app/CMakeFiles/verilog_parser.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target app/CMakeFiles/TestParser_fields.x.dir
-
-# All Build rule for target.
-app/CMakeFiles/TestParser_fields.x.dir/all: app/CMakeFiles/verilog_parser.dir/all
-	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/depend
-	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/renan/iccad2016uffs/CMakeFiles --progress-num=7,8 "Built target TestParser_fields.x"
-.PHONY : app/CMakeFiles/TestParser_fields.x.dir/all
-
-# Include target in all.
-all: app/CMakeFiles/TestParser_fields.x.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-app/CMakeFiles/TestParser_fields.x.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/TestParser_fields.x.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renan/iccad2016uffs/CMakeFiles 0
-.PHONY : app/CMakeFiles/TestParser_fields.x.dir/rule
-
-# Convenience name for target.
-TestParser_fields.x: app/CMakeFiles/TestParser_fields.x.dir/rule
-
-.PHONY : TestParser_fields.x
-
-# clean rule for target.
-app/CMakeFiles/TestParser_fields.x.dir/clean:
-	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/clean
-.PHONY : app/CMakeFiles/TestParser_fields.x.dir/clean
-
-# clean rule for target.
-clean: app/CMakeFiles/TestParser_fields.x.dir/clean
+clean: app/CMakeFiles/count_inputs_outputs.x.dir/clean
 
 .PHONY : clean
 

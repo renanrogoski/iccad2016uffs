@@ -605,30 +605,17 @@ TestParser1.x/fast:
 .PHONY : TestParser1.x/fast
 
 #=============================================================================
-# Target rules for targets named aleatory_simulate_graph.x
+# Target rules for targets named TestParser_fields.x
 
 # Build rule for target.
-aleatory_simulate_graph.x: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aleatory_simulate_graph.x
-.PHONY : aleatory_simulate_graph.x
+TestParser_fields.x: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestParser_fields.x
+.PHONY : TestParser_fields.x
 
 # fast build rule for target.
-aleatory_simulate_graph.x/fast:
-	$(MAKE) -f app/CMakeFiles/aleatory_simulate_graph.x.dir/build.make app/CMakeFiles/aleatory_simulate_graph.x.dir/build
-.PHONY : aleatory_simulate_graph.x/fast
-
-#=============================================================================
-# Target rules for targets named iccad2016solve.x
-
-# Build rule for target.
-iccad2016solve.x: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 iccad2016solve.x
-.PHONY : iccad2016solve.x
-
-# fast build rule for target.
-iccad2016solve.x/fast:
-	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/build
-.PHONY : iccad2016solve.x/fast
+TestParser_fields.x/fast:
+	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/build
+.PHONY : TestParser_fields.x/fast
 
 #=============================================================================
 # Target rules for targets named verilog_parser
@@ -644,17 +631,43 @@ verilog_parser/fast:
 .PHONY : verilog_parser/fast
 
 #=============================================================================
-# Target rules for targets named TestParser_fields.x
+# Target rules for targets named iccad2016solve.x
 
 # Build rule for target.
-TestParser_fields.x: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TestParser_fields.x
-.PHONY : TestParser_fields.x
+iccad2016solve.x: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iccad2016solve.x
+.PHONY : iccad2016solve.x
 
 # fast build rule for target.
-TestParser_fields.x/fast:
-	$(MAKE) -f app/CMakeFiles/TestParser_fields.x.dir/build.make app/CMakeFiles/TestParser_fields.x.dir/build
-.PHONY : TestParser_fields.x/fast
+iccad2016solve.x/fast:
+	$(MAKE) -f app/CMakeFiles/iccad2016solve.x.dir/build.make app/CMakeFiles/iccad2016solve.x.dir/build
+.PHONY : iccad2016solve.x/fast
+
+#=============================================================================
+# Target rules for targets named aleatory_simulate_graph.x
+
+# Build rule for target.
+aleatory_simulate_graph.x: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aleatory_simulate_graph.x
+.PHONY : aleatory_simulate_graph.x
+
+# fast build rule for target.
+aleatory_simulate_graph.x/fast:
+	$(MAKE) -f app/CMakeFiles/aleatory_simulate_graph.x.dir/build.make app/CMakeFiles/aleatory_simulate_graph.x.dir/build
+.PHONY : aleatory_simulate_graph.x/fast
+
+#=============================================================================
+# Target rules for targets named count_inputs_outputs.x
+
+# Build rule for target.
+count_inputs_outputs.x: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 count_inputs_outputs.x
+.PHONY : count_inputs_outputs.x
+
+# fast build rule for target.
+count_inputs_outputs.x/fast:
+	$(MAKE) -f app/CMakeFiles/count_inputs_outputs.x.dir/build.make app/CMakeFiles/count_inputs_outputs.x.dir/build
+.PHONY : count_inputs_outputs.x/fast
 
 # Help Target
 help:
@@ -702,10 +715,11 @@ help:
 	@echo "... TestRapidCheck.x"
 	@echo "... ContinuousSubmit"
 	@echo "... TestParser1.x"
-	@echo "... aleatory_simulate_graph.x"
-	@echo "... iccad2016solve.x"
-	@echo "... verilog_parser"
 	@echo "... TestParser_fields.x"
+	@echo "... verilog_parser"
+	@echo "... iccad2016solve.x"
+	@echo "... aleatory_simulate_graph.x"
+	@echo "... count_inputs_outputs.x"
 .PHONY : help
 
 
