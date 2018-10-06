@@ -1,0 +1,30 @@
+# exemplo para um case
+renan@renan-Aspire-E5-571:~/iccad2016uffs$ ./app/aleatory_simulate_graph.x testcases/BDD/in_1.v
+
+# rodar todos cases (somente cases na pasta)
+
+find testcases |grep v$ | while read x ; do ./app/aleatory_simulate_graph.x $x > $x.csv ; done
+
+# rodar todos cases (tempo limitado no terminal) ~ (somente cases na pasta)
+
+find testcases |grep v$ | while read x ; do timeout 1800 ./app/aleatory_simulate_graph.x $x > $x.csv ; done
+
+
+
+
+## apagar arquivos do testCases
+
+find testcases |grep csv$ | while read x ; do rm $x ; done
+
+## encontrar aquivos teste 
+
+find testcases |grep csv$
+
+
+
+unit16 ressimular
+
+./app/testcases_count_inputs_outputs.x testcases_count_inputs_outputs/BDD/in_1.v
+
+# rodar a contagem de entradas e saidas (somente cases na pasta) Etapa realizada
+find testcases_count_inputs_outputs |grep v$ | while read x ; do ./app/count_inputs_outputs.x $x > $x.csv ; done

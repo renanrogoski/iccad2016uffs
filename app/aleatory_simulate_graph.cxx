@@ -13,7 +13,7 @@
 #include <map>
 #include <chrono>
 
-#define SIMULACOES 999
+#define SIMULACOES 99
 
 using namespace verilog;
 using namespace std::chrono;
